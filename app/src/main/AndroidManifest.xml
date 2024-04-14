@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.GymApp">
+
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.GymAppOrelAndNetanel"
+        tools:targetApi="31">
+
+        <!-- Splash Activity -->
+        <activity android:name=".Model.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Sign In Activity -->
+        <activity android:name=".Model.SignInActivity" />
+
+        <!-- Sign Up Activity -->
+        <activity android:name=".Model.SignUpActivity" />
+
+        <!-- Home Screen Activity -->
+        <activity android:name=".Model.HomeScreenActivity"/>
+
+        <!-- Home Gym Activity -->
+        <activity android:name=".Model.ManageExercisesActivity"/>
+
+        <!-- My Info Activity -->
+        <activity android:name=".Model.MyInfoActivity"/>
+
+        <!-- Main Activity -->
+        <activity android:name=".MainActivity" />
+
+        <activity android:name=".Model.ExercisePageActivity"/>
+
+        <activity android:name=".Model.SelectedMuscleGroupActivity"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "722596730019",
+    "project_id": "orelnatanelgym",
+    "storage_bucket": "orelnatanelgym.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722596730019:android:9a88c01e64f5063bf4db16",
+        "android_client_info": {
+          "package_name": "com.example.GymApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwnxaj4YRoBoO0kgP5euJQAeDHIKI8BFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

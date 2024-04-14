@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">GymAppOrelAndNetanel</string>
+    <string-array name="gym_equipment_options">
+        <item>Dumbbells</item>
+        <item>Barbell</item>
+        <item>Smith Machine</item>
+        <item>Leg Press Machine</item>
+        <item>Leg Curl Machine</item>
+        <item>Leg Extension Machine</item>
+        <item>Kettlebell</item>
+        <item>jump rope</item>
+        <item>yoga mattress</item>
+        <item>Exercise Bike</item>
+        <item>pull up bar</item>
+        <item>Resistance Bands</item>
+        <item>TRX</item>
+        <item>Stability Ball</item>
+        <item>Medicine Ball</item>
+        <item>Boxing Gloves</item>
+        <item>Boxing Bag</item>
+        <item>Weight Bench</item>
+        <item>Weight Plates</item>
+        <item>Weightlifting Belt</item>
+        <!-- Add more equipment options here -->
+    </string-array>
+
+</resources>

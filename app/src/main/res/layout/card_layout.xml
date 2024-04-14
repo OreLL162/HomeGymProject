@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/white"
+        android:onClick="SelectedMuscleGroup"
+        android:padding="16dp">
+
+        <!-- Image representing the muscle group -->
+
+        <!-- Title of the muscle group -->
+
+        <!-- Brief description of the muscle group -->
+
+        <ImageView
+            android:id="@+id/imageViewMuscleGroup"
+            android:layout_width="116dp"
+            android:layout_height="115dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/chest" />
+
+        <TextView
+            android:id="@+id/muscleGroupTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_toEndOf="@id/imageViewMuscleGroup"
+            android:text="Chest Exercises"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="239dp"
+            android:layout_height="52dp"
+            android:layout_below="@id/muscleGroupTitle"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@id/imageViewMuscleGroup"
+            android:text="Strengthen and tone your chest muscles with these effective exercises."
+            android:textColor="#4F4F4F" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

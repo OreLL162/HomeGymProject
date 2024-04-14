@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextRegisterName"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:hint="Username"
+        android:textColor="#000000"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000" />
+
+    <EditText
+        android:id="@+id/editTextRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000" />
+
+
+    <EditText
+        android:id="@+id/editTextUpdateAge"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:hint="Age"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000" />
+
+    <EditText
+        android:id="@+id/editTextUpdateHeight"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Height (cm)"
+        android:inputType="numberDecimal"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000" />
+
+    <EditText
+        android:id="@+id/editTextUpdateWeight"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:hint="Weight (kg)"
+        android:inputType="numberDecimal"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000" />
+
+    <Button
+        android:id="@+id/equipment_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="choose equipment"
+        android:textColor="@color/black"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#58575A" />
+
+    <Button
+        android:id="@+id/buttonSubmitUpdateInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonGoBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="onGoBackClick"
+        android:text="Go Back"
+        android:textColor="@color/black" />
+
+</LinearLayout>

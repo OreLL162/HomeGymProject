@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Model.ManageExercisesActivity">
+
+    <TextView
+        android:id="@+id/TextViewUsername"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center|center_vertical"
+        android:text="Welcome , we got some exercises just for you ! "
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:typeface="normal" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
